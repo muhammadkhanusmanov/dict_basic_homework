@@ -7,4 +7,5 @@ def create_dictionary(key, value):
     Returns:
         dict: dictionary with keys and values
     """
-    return
+    a=dict(zip(key,value))
+    return a
